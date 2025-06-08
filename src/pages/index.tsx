@@ -9,9 +9,9 @@ const Home: React.FC = () => {
   // Mock data for carousel
   const carouselImages = [
     {
-      url: 'https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      alt: 'Orchestra performance',
-      caption: 'Apresentação da Orquestra ADVS'
+      url: '/images/violino-orquestra.jpg',
+      alt: 'Violino com fundo de orquestra',
+      caption: 'Destaque para o Violino na Orquestra'
     },
     {
       url: 'https://images.pexels.com/photos/7097455/pexels-photo-7097455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
@@ -36,7 +36,7 @@ const Home: React.FC = () => {
   return (
     <Layout>
       <Hero />
-      
+
       {/* About Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -47,19 +47,19 @@ const Home: React.FC = () => {
               Uma escola de música dedicada ao ensino de excelência e ao desenvolvimento de talentos musicais, com foco na formação de instrumentistas para a orquestra.
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">Nossa Missão</h3>
               <p className="text-gray-700 mb-6">
                 Formar músicos talentosos através de um ensino de qualidade, proporcionando acesso à educação musical tanto presencial quanto à distância, e contribuindo para o desenvolvimento cultural da comunidade.
               </p>
-              
+
               <h3 className="text-2xl font-semibold text-indigo-800 mb-4">Nossa Visão</h3>
               <p className="text-gray-700 mb-6">
                 Ser referência no ensino musical, formando instrumentistas de excelência e mantendo uma orquestra de alto nível, reconhecida por sua qualidade artística e contribuição cultural.
               </p>
-              
+
               <div className="grid grid-cols-2 gap-4 mt-8">
                 <div className="flex items-center">
                   <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mr-4">
@@ -70,7 +70,7 @@ const Home: React.FC = () => {
                     <p className="text-sm text-gray-600">Alunos formados</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center">
                   <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mr-4">
                     <BookOpen className="h-6 w-6 text-indigo-600" />
@@ -80,7 +80,7 @@ const Home: React.FC = () => {
                     <p className="text-sm text-gray-600">Cursos oferecidos</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center">
                   <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mr-4">
                     <PlayCircle className="h-6 w-6 text-indigo-600" />
@@ -90,7 +90,7 @@ const Home: React.FC = () => {
                     <p className="text-sm text-gray-600">Apresentações anuais</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center">
                   <div className="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mr-4">
                     <Clock className="h-6 w-6 text-indigo-600" />
@@ -102,14 +102,14 @@ const Home: React.FC = () => {
                 </div>
               </div>
             </div>
-            
+
             <div>
               <Carousel images={carouselImages} />
             </div>
           </div>
         </div>
       </section>
-      
+
       {/* Birthday Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -120,11 +120,11 @@ const Home: React.FC = () => {
               Compartilhamos momentos especiais da nossa comunidade musical.
             </p>
           </div>
-          
+
           <Birthday person={birthdayPerson} />
         </div>
       </section>
-      
+
       {/* Call to Action */}
       <section className="py-16 bg-indigo-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
