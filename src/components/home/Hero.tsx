@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
             aria-label="Imagem e citação musical inspiradora"
           >
             <img
-              src="/images/violino-orquestra.jpg.png"
+              src="public/images/violino-orquestra.jpg.png"
               alt="Violino em uma orquestra"
               className="rounded-lg w-full h-auto object-cover"
               loading="lazy"
