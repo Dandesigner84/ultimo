@@ -43,8 +43,7 @@ const Hero: React.FC = () => {
           
           <div className="hidden md:block bg-white/10 backdrop-blur-sm rounded-xl p-6 shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
             <img
-              src="https://images.pexels.com/photos/4088012/pexels-photo-4088012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="Orchestra conducting"
+              src="https://github.com/Dandesigner84/ultimo/blob/main/src/public/images/violino-orquestra.jpg.png"
               className="rounded-lg w-full h-auto object-cover"
             />
             <div className="mt-4 p-4 bg-indigo-800/80 backdrop-blur rounded-lg -mb-10 -ml-6 -mr-6 shadow-lg">
